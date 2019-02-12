@@ -1,0 +1,98 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2034.16 1190.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+        opacity: 0.2;
+        isolation: isolate;
+      }
+
+      .cls-1 {
+        stroke: url(#linear-gradient);
+        animation: spin2 10s   infinite;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-2);
+        animation: spin1 12s   infinite;
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-3);
+        animation: spin3 15s infinite ;
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-4);
+        animation: spin2 14s ease  infinite;
+      }
+
+      .cls-5 {
+        stroke: url(#linear-gradient-5);
+        animation: spin2 18s ease  infinite;
+      }
+
+       @keyframes spin1 {
+        0% {
+          transform: rotate(0deg);
+        }
+        70% {
+          transform: rotate(1deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+      @keyframes spin2 {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(2deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+       @keyframes spin3 {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(3deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="670.27" y1="697.52" x2="969.57" y2="697.52" gradientTransform="translate(149 201.48) rotate(11.51)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005aa9"/>
+      <stop offset="1" stop-color="#00a67e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1680.29" y1="441.98" x2="1742.14" y2="441.98" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="1486.3" y1="202.63" x2="2270.78" y2="202.63" gradientTransform="translate(2279.36 577.85) rotate(176.16)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="832.6" y1="-89.13" x2="993.21" y2="-89.13" gradientTransform="translate(2279.36 577.85) rotate(176.16)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="221.52" y1="360.86" x2="781.5" y2="360.86" gradientTransform="translate(2279.36 577.85) rotate(176.16)" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>background2</title>
+  <g id="LittleLeft">
+    <polygon class="cls-1" points="911.33 937.75 766.33 908.25 668.33 1019.05 715.23 1159.36 860.23 1188.86 958.23 1078.06 911.33 937.75"/>
+  </g>
+  <g id="LittleRight">
+    <polygon class="cls-2" points="1757.03 954.15 1728.43 948.25 1709.03 970.15 1718.33 997.86 1746.93 1003.65 1766.23 981.86 1757.03 954.15"/>
+  </g>
+  <g id="BigRight">
+    <polygon class="cls-3" points="219.23 851.96 608.83 825.86 781.03 475.36 563.53 150.96 173.93 177.16 1.73 527.55 219.23 851.96"/>
+  </g>
+  <g id="Middle">
+    <polygon class="cls-4" points="1339.73 798.46 1418.13 793.15 1452.83 722.65 1409.03 657.46 1330.63 662.65 1296.03 733.25 1339.73 798.46"/>
+  </g>
+  <g id="BigLeft">
+    <polygon class="cls-5" points="1632.03 501.15 1909.73 482.56 2032.43 232.75 1877.43 1.55 1599.83 20.25 1477.13 269.95 1632.03 501.15"/>
+  </g>
+</svg>
